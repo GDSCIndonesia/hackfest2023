@@ -39,7 +39,7 @@ export default function Navbar() {
                     <ul className='flex w-full lg:w-fit text-center lg:text-left space-x-0 lg:space-x-[50px] flex-col lg:flex-row'>
                         <li className='border-b-2 border-black lg:border-0 py-[20px] lg:py-0 px-[15px] lg:p-0'>
                             <div className='flex space-x-8 lg:hidden'>
-                                <img className='w-[140px] h-auto' src="/public/libraries/images/svg/hackfest-logo.svg"/>
+                                <img className='w-[140px] h-auto' src="/libraries/images/svg/hackfest-logo.svg"/>
                                 <button onClick={() => setNavbar(false)} className='font-gooReg'>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
