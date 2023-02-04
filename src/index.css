@@ -10,9 +10,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+    /* Everett Fonts */
+      @font-face {
+        font-family: 'gooReg';
+        src: url('/libraries/fonts/GoogleSans-Regular.ttf') format('truetype');
+    }
+      @font-face {
+        font-family: 'gooMed';
+        src: url('/libraries/fonts/GoogleSans-Medium.ttf') format('truetype');
+    }
+      @font-face {
+        font-family: 'gooBold';
+        src: url('/libraries/fonts/GoogleSans-Bold.ttf') format('truetype');
+    }
+    /* End Everett Fonts */
+  }
+
 @layer components {
-    body{
+    /* body{
         @apply bg-black
+    } */
+    html{
+        @apply overflow-x-hidden
     }
     .comingSoon{
         @apply h-screen w-full font-sans flex items-center justify-center text-white/50
