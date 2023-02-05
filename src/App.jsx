@@ -9,6 +9,7 @@ import MediaPartner from './components/MediaPartner'
 import OrganizerEvent from './components/OrganizerEvent'
 import SponsorEvent from './components/SponsorEvent'
 import TopWords from './components/TopWords'
+import CountDown from './components/CountDown'
 
 function App() {
   const [count, setCount] = useState(0)
