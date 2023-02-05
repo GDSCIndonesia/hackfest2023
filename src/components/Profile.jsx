@@ -7,8 +7,8 @@ export default function Profile({ name, position, image }) {
         </div>
       </div>
       <div className="mb-8">
-        <h3 className="font-gooBold text-2xl">{name}</h3>
-        <p className="font-gooReg text-lg">{position}</p>
+        <h3 className="font-gooBold text-xl 2xl:text-2xl mb-2">{name}</h3>
+        <p className="font-gooReg text-md 2xl:text-lg">{position}</p>
       </div>
     </div>
   );

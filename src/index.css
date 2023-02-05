@@ -53,4 +53,10 @@
     .comingFlex{
         @apply mt-[10px] flex items-center justify-center space-x-1 font-poppins w-fit mx-auto text-white/80
     }
+    .text-title{
+        @apply text-[38px] md:text-[35px] lg:text-[55px]
+    }
+    .text-detail{
+        @apply text-[14px] md:text-[16px]
+    }
 }
