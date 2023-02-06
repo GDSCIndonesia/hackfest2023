@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import CountDown from './components/CountDown'
 import HackfestDetail from './components/HackfestDetail'
 
 import HackTitle from './components/HackTitle'
@@ -9,7 +8,7 @@ import MediaPartner from './components/MediaPartner'
 import OrganizerEvent from './components/OrganizerEvent'
 import SponsorEvent from './components/SponsorEvent'
 import TopWords from './components/TopWords'
-import CountDown from './components/CountDown'
+import CountEvent from './components/CountEvent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +19,7 @@ function App() {
       <Navbar/>
       <HackfestDetail/>
       <TopWords/>
-      <CountDown/>
+      <CountEvent/>
       <MediaPartner/>
       <SponsorEvent/>
       <OrganizerEvent/>

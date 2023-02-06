@@ -74,6 +74,7 @@ export default function Navbar() {
                         d="M6 18L18 6M6 6l12 12"
                       />
                     </svg>
+                  </button>
                 </div>
               </li>
               <li className="border-b border-black lg:border-0">
