@@ -75,11 +75,11 @@ export default function Faq() {
           <h2 className="font-gooBold text-title mb-8">
             Frequently Asked Questions
           </h2>
-          <p className="font-gooReg text-detail mb-8">
+          {/* <p className="font-gooReg text-detail mb-8">
             Eu varius cursus dolor tristique et vestibulum purus. Urna eu cursus
             gravida malesuada bibendum massa scelerisque aliquam ut. Nisl risus
             lorem mattis lectus mi interdum.
-          </p>
+          </p> */}
         </div>
         <div className="max-w-6xl mx-10 sm:w-full sm:mx-0">
           {faqData.map((faq, index) => (
