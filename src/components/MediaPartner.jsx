@@ -14,7 +14,7 @@ export default function MediaPartner() {
           </div>
         </div>
         <div className="col-span-12 md:col-span-5 py-[60px] px-[50px] bg-gooYellow-900 border-b-2 md:border-b-0 md:border-l-2 border-black h-full">
-        <img src="/public/libraries/images/svg/illustrator/mediaPartner.svg" className="m-auto"/>
+        <img src="/libraries/images/svg/illustrator/mediaPartner.svg" className="m-auto"/>
         </div>
       </div>
     </section>
