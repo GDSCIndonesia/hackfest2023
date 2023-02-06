@@ -11,9 +11,9 @@ export default function HackfestDetail() {
           </div>
           <div className="font-gooReg tracking-wide text-white text-justify mt-[30px] md:text-[12px] lg:text-[18px]">
             <p>
-              HackFest Indonesia is Indonesia’s hackathonheld by GDSC Indonesia
+              HackFest Indonesia is Indonesia’s hackathon held by GDSC Indonesia
               where university students of different skills from all over
-              Indonesia can cometogether to experiment and develop impactful
+              Indonesia can come together to experiment and develop impactful
               software or hardware based on United Nation 17 SDGs.
             </p>
           </div>

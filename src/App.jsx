@@ -1,33 +1,33 @@
-import { useState } from 'react'
-import HackfestDetail from './components/HackfestDetail'
+import { useState } from "react";
+import HackfestDetail from "./components/HackfestDetail";
 
-import HackTitle from './components/HackTitle'
-import Footer from './components/layout/Footer'
-import Navbar from './components/layout/Navbar'
-import MediaPartner from './components/MediaPartner'
-import OrganizerEvent from './components/OrganizerEvent'
-import SponsorEvent from './components/SponsorEvent'
-import TopWords from './components/TopWords'
-import CountEvent from './components/CountEvent'
-import JoinDiscord from './components/JoinDiscord'
+import HackTitle from "./components/HackTitle";
+import Footer from "./components/layout/Footer";
+import Navbar from "./components/layout/Navbar";
+import MediaPartner from "./components/MediaPartner";
+import OrganizerEvent from "./components/OrganizerEvent";
+import SponsorEvent from "./components/SponsorEvent";
+import TopWords from "./components/TopWords";
+import CountEvent from "./components/CountEvent";
+import JoinDiscord from "./components/JoinDiscord";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-      <HackTitle/>
-      <Navbar/>
-      <HackfestDetail/>
-      <TopWords/>
-      <CountEvent/>
+      <HackTitle />
+      <Navbar />
+      <HackfestDetail />
+      <TopWords />
+      <CountEvent />
       {/* <MediaPartner/>
       <SponsorEvent/> */}
-      <JoinDiscord/>
+      <JoinDiscord />
       {/* <OrganizerEvent/> */}
-      <Footer/>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
