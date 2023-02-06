@@ -28,10 +28,10 @@
   }
 
 @layer components {
-    /* body{
-        @apply bg-black
-    } */
-    html{
+    html {
+        @apply overflow-x-hidden
+    }
+    body{
         @apply overflow-x-hidden
     }
     .comingSoon{
