@@ -23,7 +23,9 @@ export default function Navbar() {
     <section className="bg-white sticky top-0 left-0 z-[8999] w-full overflow-x-clip" ref={menuRef}>
       <div className="flex border-y-[2px] border-black justify-between lg:justify-start items-center">
         <div className="pl-[30px] md:pl-[60px] pr-[20px]">
-          <img src="/libraries/images/svg/gdsc-logo.svg" className="h-[28px]" />
+          <a href="#">
+            <img src="/libraries/images/svg/gdsc-logo.svg" className="h-[28px]" />
+          </a>
         </div>
         <div className="pr-[30px] md:pr-[60px] lg:hidden">
           <button onClick={() => setNavbar(true)} className="py-[14px]">
@@ -129,7 +131,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="https://hackfest.page.link/registration"
+                  href="https://links.gdsc-hackfest.com/registration"
                   className="inline-block bg-black text-white font-gooReg py-[15px] px-[40px] hover:bg-gooYellow-800 hover:text-black transition-all w-full lg:w-fit text-center border-b border-black lg:border-b-0"
                 >
                   Register

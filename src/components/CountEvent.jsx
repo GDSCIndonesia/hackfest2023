@@ -49,7 +49,7 @@ export default function CountEvent() {
               ">
                 Download Guidebook
               </a>
-              <a href="https://hackfest.page.link/registration" className="border-2 border-black px-[30px] py-[15px] font-gooReg text-[13px] sm:text-[15px] md:text-[16px] lg:text-[18px] text-white bg-black hover:bg-gooGreen-900 transition-all
+              <a href="https://links.gdsc-hackfest.com/registration" className="border-2 border-black px-[30px] py-[15px] font-gooReg text-[13px] sm:text-[15px] md:text-[16px] lg:text-[18px] text-white bg-black hover:bg-gooGreen-900 transition-all
               ">
                 Register
               </a>
