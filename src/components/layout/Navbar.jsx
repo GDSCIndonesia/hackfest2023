@@ -54,7 +54,7 @@ export default function Navbar() {
                 <div className="flex space-x-8 lg:hidden">
                   <img
                     className="w-[140px] h-auto"
-                    src="/public/libraries/images/svg/hackfest-logo.svg"
+                    src="/libraries/images/svg/hackfest-logo.svg"
                   />
                   <button
                     onClick={() => setNavbar(false)}
@@ -74,6 +74,7 @@ export default function Navbar() {
                         d="M6 18L18 6M6 6l12 12"
                       />
                     </svg>
+                  </button>
                 </div>
               </li>
               <li className="border-b border-black lg:border-0">
