@@ -28,11 +28,8 @@
   }
 
 @layer components {
-    html {
-        @apply overflow-x-hidden
-    }
-    body{
-        @apply overflow-x-hidden
+    html{
+        @apply scroll-smooth
     }
     .comingSoon{
         @apply h-screen w-full font-sans flex items-center justify-center text-white/50

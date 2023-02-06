@@ -20,8 +20,8 @@ export default function Navbar() {
   });
 
   return (
-    <section className="bg-white sticky top-0 left-0 z-50" ref={menuRef}>
-      <div className="flex border-y-[2px] border-black justify-between lg:justify-start items-center relative">
+    <section className="bg-white sticky top-0 left-0 z-[8999] w-full overflow-x-clip" ref={menuRef}>
+      <div className="flex border-y-[2px] border-black justify-between lg:justify-start items-center">
         <div className="pl-[30px] md:pl-[60px] pr-[20px]">
           <img src="/libraries/images/svg/gdsc-logo.svg" className="h-[28px]" />
         </div>
@@ -46,11 +46,11 @@ export default function Navbar() {
         <div
           className={`${
             showNavbar ? "right-0" : "right-[-100%]"
-          } absolute lg:static top-0 h-screen lg:h-fit bg-white lg:bg-transparent lg:w-full z-50 border-l-2 border-black lg:border-l-0 transition-all duration-500 ease-in-out`}
+          } absolute lg:static top-0 h-screen lg:h-fit bg-white lg:bg-transparent lg:w-full border-l-2 border-black lg:border-l-0 transition-all duration-500 ease-in-out z-[8999]`}
         >
           <div className="flex justify-between items-center flex-col lg:flex-row">
             <ul className="flex w-full lg:w-fit text-center lg:text-left space-x-0 lg:space-x-[50px] flex-col lg:flex-row">
-              <li className="border-b-2 border-black lg:border-0 py-[20px] lg:py-0 px-[15px] lg:p-0">
+              <li className="border-y-2 border-black lg:border-0 py-[20px] lg:py-0 px-[15px] lg:p-0">
                 <div className="flex space-x-8 lg:hidden">
                   <img
                     className="w-[140px] h-auto"
@@ -79,7 +79,7 @@ export default function Navbar() {
               </li>
               <li className="border-b border-black lg:border-0">
                 <a
-                  href=""
+                  href="#about"
                   className="font-gooReg py-[15px] lg:py-0 inline-block w-full hover:bg-gooYellow-500 lg:hover:bg-transparent lg:hover:underline transition-all"
                 >
                   About
@@ -87,7 +87,7 @@ export default function Navbar() {
               </li>
               <li className="border-b border-black lg:border-0">
                 <a
-                  href=""
+                  href="#events"
                   className="font-gooReg py-[15px] lg:py-0 inline-block w-full hover:bg-gooYellow-500 lg:hover:bg-transparent lg:hover:underline transition-all"
                 >
                   Events
@@ -95,7 +95,7 @@ export default function Navbar() {
               </li>
               <li className="border-b border-black lg:border-0">
                 <a
-                  href=""
+                  href="#"
                   className="font-gooReg py-[15px] lg:py-0 inline-block w-full hover:bg-gooYellow-500 lg:hover:bg-transparent lg:hover:underline transition-all"
                 >
                   Timeline
@@ -103,7 +103,7 @@ export default function Navbar() {
               </li>
               <li className="border-b border-black lg:border-0">
                 <a
-                  href=""
+                  href="#"
                   className="font-gooReg py-[15px] lg:py-0 inline-block w-full hover:bg-gooYellow-500 lg:hover:bg-transparent lg:hover:underline transition-all"
                 >
                   Prizes
@@ -111,7 +111,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href=""
+                  href="#"
                   className="font-gooReg py-[15px] lg:py-0 inline-block w-full hover:bg-gooYellow-500 lg:hover:bg-transparent lg:hover:underline transition-all"
                 >
                   FAQ
@@ -121,15 +121,15 @@ export default function Navbar() {
             <ul className="flex flex-col lg:flex-row w-full lg:w-fit ">
               <li>
                 <a
-                  href="#"
+                  href="https://goo.gle/googledevsid"
                   className="inline-block text-black font-gooReg py-[15px] px-[40px] hover:bg-gooYellow-800 hover:text-black transition-all border-y lg:border-y-0 lg:border-x-2 border-black w-full lg:w-fit text-center"
                 >
-                  Contact Us
+                  Join Discord
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://hackfest.page.link/registration"
                   className="inline-block bg-black text-white font-gooReg py-[15px] px-[40px] hover:bg-gooYellow-800 hover:text-black transition-all w-full lg:w-fit text-center border-b border-black lg:border-b-0"
                 >
                   Register

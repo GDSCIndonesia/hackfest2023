@@ -7,10 +7,10 @@ export default function Footer() {
   return (
     <footer className="bg-black py-[70px] flex flex-col justify-center">
         <div>
-            <img src="libraries/images/svg/gdsc-full-logo.svg" className="w-[300px] md:w-[400px] h-auto mx-auto"/>
+            <img src="/libraries/images/svg/gdsc-full-logo.svg" className="w-[300px] md:w-[400px] h-auto mx-auto"/>
         </div>
         <div className="flex space-x-[40px] text-[20px] mx-auto mt-[31px]">
-            <a href="">
+            <a href="https://www.youtube.com/@gdscindonesia">
                 <FaYoutube className="text-white"/>
             </a>
             <a href="https://twitter.com/gdscindonesia">
