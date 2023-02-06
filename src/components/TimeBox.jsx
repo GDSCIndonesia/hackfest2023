@@ -1,4 +1,4 @@
-export default function TimeBox({ title, dateFrom, dateTo }) {
+export default function TimeBox({ id, title, dateFrom, dateTo }) {
   dateFrom.setHours(0, 0, 0);
   dateTo.setHours(23, 59, 59);
 
@@ -32,10 +32,11 @@ export default function TimeBox({ title, dateFrom, dateTo }) {
     <div
       className={
         "border border-black w-full aspect-w-1 aspect-h-1 " +
-        (isToday ? "bg-gooYellow-900" : "bg-white")
+        (isToday ? "bg-gooYellow-900 " : "bg-white ") + 
+        (id === 12 ? "lg:col-span-4 lg:aspect-w-4 sm:col-span-2 sm:aspect-w-2" : "")
       }
     >
-      <div className="flex flex-col justify-center items-center text-center">
+      <div className="flex flex-col justify-center items-center text-center p-4">
         <h3 className="font-gooBold text-xl 2xl:text-2xl mb-8">
           {title}
         </h3>
