@@ -29,9 +29,9 @@ function App() {
       <JoinDiscord/>
       <Faq/>
       {/* <OrganizerEvent/> */}
-      <Footer/>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
