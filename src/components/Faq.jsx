@@ -21,7 +21,7 @@ export default function Faq() {
     {
       question: "If I am currently staying overseas, can I still be able to participate?",
       answer: `There are several requirements regarding this question. For your information, this event will be held hybrid. The final round will be held offline for only 1 representative of each team, while the other rounds will be held online.
-
+      <div style="margin-bottom: 20px;"></div>
       If you participate as a team, you can send your team member who stays in Indonesia as a representative for the final round. Meanwhile, if you participate alone (without a team), please reach us via email for further information.
       `
     },
@@ -36,9 +36,12 @@ export default function Faq() {
     {
       question: "Are there any prerequisites or required skills?",
       answer: `1. Your solution is expected to be production-ready (serves well as a proof-of-concept application).
+              <div style="margin-bottom: 5px;"></div>
               2. If your team requires a solution that needs to be deployed, you are expected to have your own domain purchased and ready.
+              <div style="margin-bottom: 5px;"></div>
               3. Implementing Google technology will earn bonus points! But you can also use developer tools that Google did not develop.
-              4. Experience in coding and programming is a huge plus, teams will also need people with strong presentation skills and brilliant ideas.
+              <div style="margin-bottom: 5px;"></div>
+              4. Experience in coding and programming is a huge plus, teams will also need people with strong presentation skills and brilliant ideas.<br />
       `
     },
     {
@@ -71,9 +74,12 @@ export default function Faq() {
     },
     {
       question: "How will the winners be announced?",
-      answer: `Please kindly reach us directly through our email at gdschackfest@gmail.com or hit our contact persons up below.
-      Joni Bastian https://t.me/jonibastian via Telegram
-      Sendhy https://wa.me/6282150103051 via WhatsApp
+      answer: `Please kindly reach us directly through our email at <strong>gdschackfest@gmail.com</strong> or hit our contact persons up below.
+      <div style="margin-bottom: 5px;"></div>
+      <strong>Joni Bastian https://t.me/jonibastian via Telegram</strong>
+      <div style="margin-bottom: 5px;"></div>
+      <strong>Sendhy https://wa.me/6282150103051 via WhatsApp</strong>
+      <div style="margin-bottom: 5px;"></div>
       We would be happy to help you.
       `
     }

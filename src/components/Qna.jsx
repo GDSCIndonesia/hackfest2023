@@ -1,4 +1,5 @@
 import { useState } from "react";
+import parse from 'html-react-parser';
 
 export default function Qna({ question, answer }) {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -20,7 +21,7 @@ export default function Qna({ question, answer }) {
             "border border-black bg-white flex justify-between items-center px-4 py-2 text-detail"
           }
         >
-          <p className="font-gooReg">{answer}</p>
+          <p className="font-gooReg">{parse(answer)}</p>
         </div>
       ) : null}
     </div>
