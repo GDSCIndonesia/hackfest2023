@@ -2,7 +2,7 @@ import React from "react";
 
 export default function JoinDiscord() {
   return (
-    <section className="bg-black py-[40px] md:py-0">
+      <section className="bg-black py-[40px] md:py-0">
       <div className="grid grid-cols-12">
         <div className="col-span-12 md:col-span-6 p-[35px] xl:p-[50px]">
           <img src="/libraries/images/svg/illustrator/discord-01.svg" alt="" />
