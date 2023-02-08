@@ -26,8 +26,8 @@ function App() {
       {/* <Mentor/> */}
       {/* <MediaPartner/> */}
       {/* <SponsorEvent/> */}
-      <Faq/>
       <JoinDiscord/>
+      <Faq/>
       {/* <OrganizerEvent/> */}
       <Footer/>
     </>
