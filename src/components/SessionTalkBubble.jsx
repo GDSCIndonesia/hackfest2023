@@ -25,7 +25,14 @@ export default function SessionTalkBubble({
         {speakers.map((speaker) => (
           <div className="flex flex-col items-center">
             <div className="bg-white aspect-1 h-24 sm:h-28 rounded-full border-2 border-black mb-4">
-              <img src={speaker.image} /*alt={name + " profile"}*/ />
+              <img
+                className={
+                  "rounded-full object-cover w-full h-full " +
+                  (speaker.image ? "" : "hidden")
+                }
+                src={speaker.image}
+                alt={speaker.name + " profile"}
+              />
             </div>
             <p className="bg-white font-gooReg text-xs sm:text-sm border-2 border-black rounded-full p-1 px-3 truncate">
               {speaker.name}

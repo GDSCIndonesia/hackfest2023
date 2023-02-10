@@ -24,7 +24,7 @@ function App() {
       <CountEvent/>
       <Timeline/>
       <SessionTalk/>
-      {/* <Speaker/> */}
+      <Speaker/>
       {/* <Mentor/> */}
       {/* <MediaPartner/> */}
       {/* <SponsorEvent/> */}

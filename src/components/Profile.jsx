@@ -3,7 +3,14 @@ export default function Profile({ name, position, image }) {
     <div className="border border-black text-center bg-white p-4">
       <div className="flex justify-center items-center">
         <div className="bg-gooBlue-500 w-full h-full aspect-1 m-12 xl:m-12 lg:m-8 rounded-full border border-black">
-          <img src={image} /*alt={name + " profile"}*/ />
+          <img
+            className={
+              "rounded-full object-cover w-full h-full " +
+              (image ? "" : "hidden")
+            }
+            src={image}
+            alt={image}
+          />
         </div>
       </div>
       <div className="mb-8">
