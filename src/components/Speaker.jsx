@@ -5,17 +5,17 @@ export default function Speaker() {
     {
       name: "Muhammad Razan Fawwaz",
       position: "PIC GDSC Indonesia & Lead GDSC USK",
-      image: "public/speakers/razan-fawwaz.png",
+      image: "/libraries/images/speakers/razan-fawwaz.png",
     },
     {
       name: "Rizqi Nino Firmansyah",
       position: "UI Designer at Telkom Indonesia & GDG Cloud Bandung",
-      image: "public/speakers/rizqi-nino-firmansyah.png",
+      image: "/libraries/images/speakers/rizqi-nino-firmansyah.png",
     },
     {
       name: "R Surahutomo Aziz Pradana",
       position: "Engineering Manager at Bukalapak, GDE",
-      image: "public/speakers/surahutomo-aziz-pradana.png"
+      image: "/libraries/images/speakers/surahutomo-aziz-pradana.png"
     }
   ];
 

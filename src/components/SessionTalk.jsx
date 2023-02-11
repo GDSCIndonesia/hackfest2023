@@ -13,12 +13,12 @@ export default function SessionTalk() {
         {
           name: "Razan Fawwaz",
           title: "PIC GDSC Indonesia",
-          image: "public/speakers/razan-fawwaz.png",
+          image: "/libraries/images/speakers/razan-fawwaz.png",
         },
         {
           name: "Rizqi Nino Firmansyah",
           title: "UI Designer at Telkom Indonesia, GDG Cloud Bandung",
-          image: "public/speakers/rizqi-nino-firmansyah.png",
+          image: "/libraries/images/speakers/rizqi-nino-firmansyah.png",
         },
       ],
     },
@@ -33,7 +33,7 @@ export default function SessionTalk() {
         {
           name: "R Surahutomo Aziz Pradana",
           title: "Engineering Manager at Bukalapak, GDE",
-          image: "public/speakers/surahutomo-aziz-pradana.png",
+          image: "/libraries/images/speakers/surahutomo-aziz-pradana.png",
         }
       ]
     }
