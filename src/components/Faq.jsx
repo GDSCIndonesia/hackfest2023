@@ -86,7 +86,7 @@ export default function Faq() {
   ];
   
   return (
-    <section className="border-b-2 border-black bg-gooYellow-900 py-16">
+    <section id="faq" className="border-b-2 border-black bg-gooYellow-900 py-16">
       <div className="container mx-auto flex flex-col items-center">
         <div className="text-center h-full">
           <h2 className="font-gooBold text-title mb-8">

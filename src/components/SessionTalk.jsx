@@ -13,15 +13,30 @@ export default function SessionTalk() {
         {
           name: "Razan Fawwaz",
           title: "PIC GDSC Indonesia",
-          image: "",
+          image: "public/speakers/razan-fawwaz.png",
         },
         {
           name: "Rizqi Nino Firmansyah",
           title: "UI Designer at Telkom Indonesia, GDG Cloud Bandung",
-          image: "",
+          image: "public/speakers/rizqi-nino-firmansyah.png",
         },
       ],
     },
+    {
+      info: "Webinar Session Hackfest 2023",
+      title: "Build Impactful Product Through Solution Challenge",
+      date: new Date("2023-02-18"),
+      time: "01:30 WIB",
+      location: "Zoom",
+      url: "",
+      speakers: [
+        {
+          name: "R Surahutomo Aziz Pradana",
+          title: "Engineering Manager at Bukalapak, GDE",
+          image: "public/speakers/surahutomo-aziz-pradana.png",
+        }
+      ]
+    }
   ];
 
   return (
@@ -30,7 +45,7 @@ export default function SessionTalk() {
         <h2 className="font-gooMed text-title mb-8">Sessions and Tech Talk</h2>
       </div>
       <div className="container mx-auto">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 sm:gap-4 my-4 gap-4 mx-10 sm:mx-0">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 sm:gap-4 my-4 gap-4 mx-10 sm:mx-0">
           {sessionData.map((session, index) => (
             <SessionTalkBubble key={index} id={index} {...session} />
           ))}

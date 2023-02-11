@@ -97,7 +97,7 @@ export default function Navbar() {
               </li>
               <li className="border-b border-black lg:border-0">
                 <a
-                  href="#"
+                  href="#timeline"
                   className="font-gooReg py-[15px] lg:py-0 inline-block w-full hover:bg-gooYellow-500 lg:hover:bg-transparent lg:hover:underline transition-all"
                 >
                   Timeline
@@ -113,7 +113,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#faq"
                   className="font-gooReg py-[15px] lg:py-0 inline-block w-full hover:bg-gooYellow-500 lg:hover:bg-transparent lg:hover:underline transition-all"
                 >
                   FAQ
