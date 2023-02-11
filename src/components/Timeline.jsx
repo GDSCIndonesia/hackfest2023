@@ -70,7 +70,7 @@ export default function Timeline() {
   ];
   
   return (
-    <section className="bg-topWords-lines bg-contain border-b-2 border-black py-16">
+    <section id="timeline" className="bg-topWords-lines bg-contain border-b-2 border-black py-16">
       <div className="container mx-auto">
         <div className="text-center h-full">
           <h2 className="font-gooBold text-title mb-8">Timeline</h2>
