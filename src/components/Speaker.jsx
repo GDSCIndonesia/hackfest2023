@@ -4,36 +4,28 @@ export default function Speaker() {
   const speakerData = [
     {
       name: "Muhammad Razan Fawwaz",
-      position: "Google HackFest 2023 Lead",
-      image: "",
+      position: "PIC GDSC Indonesia & Lead GDSC USK",
+      image: "/libraries/images/speakers/razan-fawwaz.png",
     },
     {
-      name: "Robert Theo",
-      position: "Google HackFest 2023 Tech Lead",
-      image: "",
+      name: "Rizqi Nino Firmansyah",
+      position: "UI Designer at Telkom Indonesia & GDG Cloud Bandung",
+      image: "/libraries/images/speakers/rizqi-nino-firmansyah.png",
     },
     {
-      name: "Nico Abel Laia",
-      position: "Google HackFest 2023 Tech Member",
-      image: "",
-    },
-    {
-      name: "Haris Daffa",
-      position: "Google HackFest 2023 Tech Member",
-      image: "",
-    },
+      name: "R Surahutomo Aziz Pradana",
+      position: "Engineering Manager at Bukalapak, GDE",
+      image: "/libraries/images/speakers/surahutomo-aziz-pradana.png"
+    }
   ];
 
   return (
     <section className="border-b-2 border-black bg-gooYellow-500 py-16">
       <div className="text-center h-full">
         <h2 className="font-gooMed text-title mb-8">Speakers</h2>
-        {/* <p className="font-gooReg text-detail mb-8">
-          Current Speakers, might change in the future.
-        </p> */}
       </div>
       <div className="container mx-auto">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 sm:gap-4 my-4 gap-4 mx-10 sm:mx-0">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-12 my-4 m-10 sm:mx-0">
           {speakerData.map((data, index) => {
             return <Profile key={index} {...data} />;
           })}
