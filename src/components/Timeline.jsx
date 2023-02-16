@@ -5,7 +5,7 @@ export default function Timeline() {
     {
       title: "Open Registration",
       dateFrom: new Date("2023-02-06"),
-      dateTo: new Date("2023-02-16"),
+      dateTo: new Date("2023-02-19"),
     },
     {
       title: "Webinar Info Session",
@@ -14,8 +14,8 @@ export default function Timeline() {
     },
     {
       title: "Technical Meeting",
-      dateFrom: new Date("2023-02-17"),
-      dateTo: new Date("2023-02-17"),
+      dateFrom: new Date("2023-02-19"),
+      dateTo: new Date("2023-02-19"),
     },
     {
       title: "Webinar",
