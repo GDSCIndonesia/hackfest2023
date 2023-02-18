@@ -13,14 +13,14 @@ export default function Timeline() {
       dateTo: new Date("2023-02-12"),
     },
     {
-      title: "Technical Meeting",
-      dateFrom: new Date("2023-02-19"),
-      dateTo: new Date("2023-02-19"),
-    },
-    {
       title: "Webinar",
       dateFrom: new Date("2023-02-18"),
       dateTo: new Date("2023-02-18"),
+    },
+    {
+      title: "Technical Meeting",
+      dateFrom: new Date("2023-02-19"),
+      dateTo: new Date("2023-02-19"),
     },
     {
       title: "Submission Proposal",
