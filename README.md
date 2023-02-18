@@ -22,6 +22,6 @@ Build with ReactJs, Vite
 ## Credits
 List of contriubutors:
 - [Robert Theo](https://www.linkedin.com/in/robertheo-rt/)
-- [Nico Abel Laia - ](https://www.linkedin.com/in/nicoabellaia/)
-- [Haris Daffa - ](http://linkedin.com/in/haris-daffa)
+- [Nico Abel Laia](https://www.linkedin.com/in/nicoabellaia/)
+- [Haris Daffa](http://linkedin.com/in/haris-daffa)
 - [Muhammad Razan Fawwaz](https://www.linkedin.com/in/razanfawwaz/)
