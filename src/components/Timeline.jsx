@@ -25,7 +25,7 @@ export default function Timeline() {
     {
       title: "Submission Proposal",
       dateFrom: new Date("2023-02-19"),
-      dateTo: new Date("2023-02-21"),
+      dateTo: new Date("2023-02-22"),
     },
     {
       title: "Proposal Selection",
