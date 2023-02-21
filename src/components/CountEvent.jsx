@@ -42,7 +42,7 @@ export default function CountEvent() {
               <h2 className="font-gooReg text-black text-[14px] tracking-[-.001rem] sm:text-[16px]">Ready to solve your local problems? Submit Your Proposal now and let's make it happen!</h2>
             </div>
             <div className="my-[30px]">
-              <Countdown date={new Date("2023-02-21T23:59:00")} renderer={renderer}/>
+              <Countdown date={new Date("2023-02-22T23:59:00")} renderer={renderer}/>
             </div>
             <div className="flex space-x-[10px] sm:space-x-[20px] justify-center md:justify-start">
               <a href="https://links.gdsc-hackfest.com/guidebook" className="border-2 border-black px-[30px] py-[15px] font-gooReg text-[13px] sm:text-[15px] md:text-[16px] lg:text-[18px] hover:bg-gooYellow-900 transition-all
