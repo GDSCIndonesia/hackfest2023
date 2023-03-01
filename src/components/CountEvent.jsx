@@ -51,7 +51,7 @@ export default function CountEvent() {
               </a>
               <a href="" className="border-2 border-black px-[30px] py-[15px] font-gooReg text-[13px] sm:text-[15px] md:text-[16px] lg:text-[18px] text-white bg-black hover:bg-gooGreen-900 transition-all
               ">
-                Submit Proposal
+                Submit Pitch Deck
               </a>
             </div>
           </div>
