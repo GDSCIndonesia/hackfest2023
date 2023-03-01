@@ -38,20 +38,20 @@ export default function CountEvent() {
         <div className="col-span-12 md:col-span-7 bg-gooYellow-300" id="events">
           <div className="bg-events-lines bg-cover bg-repeat-y bg-top py-[60px] lg:py-[60px] px-[30px] lg:px-[60px] w-full h-full">
             <div className="text-center md:text-left">
-              <h1 className="font-gooBold text-black text-[50px] md:text-[65px] tracking-[-.10rem] md:tracking-[-.20rem]">Submit Your Proposal</h1>
-              <h2 className="font-gooReg text-black text-[14px] tracking-[-.001rem] sm:text-[16px]">Ready to solve your local problems? Submit Your Proposal now and let's make it happen!</h2>
+              <h1 className="font-gooBold text-black text-[50px] md:text-[65px] tracking-[-.10rem] md:tracking-[-.20rem]">Submit Your Pitch</h1>
+              <h2 className="font-gooReg text-black text-[14px] tracking-[-.001rem] sm:text-[16px]">Ready to solve your local problems? Submit your pitch deck now and let's make it happen!</h2>
             </div>
             <div className="my-[30px]">
-              <Countdown date={new Date("2023-02-22T23:59:00")} renderer={renderer}/>
+              <Countdown date={new Date("2023-03-04T23:59:00")} renderer={renderer}/>
             </div>
             <div className="flex space-x-[10px] sm:space-x-[20px] justify-center md:justify-start">
               <a href="https://links.gdsc-hackfest.com/guidebook" className="border-2 border-black px-[30px] py-[15px] font-gooReg text-[13px] sm:text-[15px] md:text-[16px] lg:text-[18px] hover:bg-gooYellow-900 transition-all
               ">
                 Download Guidebook
               </a>
-              <a href="https://links.gdsc-hackfest.com/proposal-submission" className="border-2 border-black px-[30px] py-[15px] font-gooReg text-[13px] sm:text-[15px] md:text-[16px] lg:text-[18px] text-white bg-black hover:bg-gooGreen-900 transition-all
+              <a href="" className="border-2 border-black px-[30px] py-[15px] font-gooReg text-[13px] sm:text-[15px] md:text-[16px] lg:text-[18px] text-white bg-black hover:bg-gooGreen-900 transition-all
               ">
-                Submit Proposal
+                Submit Pitch Deck
               </a>
             </div>
           </div>

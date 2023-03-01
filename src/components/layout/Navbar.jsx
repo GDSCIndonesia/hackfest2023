@@ -131,10 +131,10 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="https://links.gdsc-hackfest.com/proposal-submission"
+                  href=""
                   className="inline-block bg-black text-white font-gooReg py-[15px] px-[40px] hover:bg-gooYellow-800 hover:text-black transition-all w-full lg:w-fit text-center border-b border-black lg:border-b-0"
                 >
-                  Submit Proposal
+                  Submit Pitch Deck
                 </a>
               </li>
             </ul>
