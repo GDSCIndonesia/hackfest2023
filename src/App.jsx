@@ -28,7 +28,7 @@ function App() {
       <SessionTalk/>
       <Speaker/>
       {/* <Mentor/> */}
-      {/* <MediaPartner/> */}
+      <MediaPartner/>
       {/* <SponsorEvent/> */}
       <JoinDiscord/>
       <Faq/>
