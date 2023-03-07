@@ -129,14 +129,14 @@ export default function Navbar() {
                   Join Discord
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="https://links.gdsc-hackfest.com/PitchDeck-submission"
                   className="inline-block bg-black text-white font-gooReg py-[15px] px-[40px] hover:bg-gooYellow-800 hover:text-black transition-all w-full lg:w-fit text-center border-b border-black lg:border-b-0"
                 >
                   Submit Pitch Deck
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
