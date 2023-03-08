@@ -28,11 +28,11 @@ function App() {
       <SessionTalk/>
       <Speaker/>
       {/* <Mentor/> */}
+      <SponsorEvent/>
       <MediaPartner/>
-      {/* <SponsorEvent/> */}
+      <OrganizerEvent/>
       <JoinDiscord/>
       <Faq/>
-      {/* <OrganizerEvent/> */}
       <Footer />
     </>
   );
