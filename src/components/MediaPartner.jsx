@@ -8,7 +8,7 @@ export default function MediaPartner() {
           <div className="w-full h-full bg-media-lines  bg-repeat bg-top py-[30px] lg:py-[60px] px-[30px] lg:px-[60px]">
             <div className="text-center">
               <h1 className="font-gooBold text-black text-[50px] md:text-[65px] tracking-[-.10rem] md:tracking-[-.20rem]">Media Partner</h1>
-              <h2 className="font-gooReg text-black text-[14px] tracking-[-.001rem] sm:text-[16px]">Google HackFest 2023 Indonesia Official Media Partner</h2>
+              <h2 className="font-gooReg text-black text-[14px] tracking-[-.001rem] sm:text-[16px]">HackFest 2023 Indonesia Official Media Partner</h2>
             </div>
             <div className="grid grid-cols-3 sm:grid-cols-6 md:grid-cols-7 gap-8 mt-[30px] w-full sm:w-[80%] md:w-[90%] lg:w-full max-w-[900px] mx-auto">
               <div className="col-span-1 sm:col-span-2 md:col-span-1 flex items-center">

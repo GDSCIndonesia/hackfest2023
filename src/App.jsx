@@ -27,7 +27,7 @@ function App() {
       <Timeline/>
       <SessionTalk/>
       <Speaker/>
-      {/* <Mentor/> */}
+      <Mentor/>
       <SponsorEvent/>
       <MediaPartner/>
       <OrganizerEvent/>
