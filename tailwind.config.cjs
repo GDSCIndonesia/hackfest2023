@@ -52,7 +52,8 @@ module.exports = {
           "url('/libraries/images/svg/background/hackfest-logo-lines.svg')",
         "topWords-lines":
           "url('/libraries/images/svg/background/topWords-lines.svg')",
-        "events-lines":  "url('/libraries/images/svg/background/events-lines.svg')"
+        "events-lines":  "url('/libraries/images/svg/background/events-lines.svg')",
+        "media-lines":  "url('/libraries/images/svg/background/media-lines.svg')",
       },
       animation: {
         colorAni: "colorAni 5s ease infinite",

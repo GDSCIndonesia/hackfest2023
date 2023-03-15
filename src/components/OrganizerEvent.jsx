@@ -8,8 +8,9 @@ export default function OrganizerEvent() {
           Organizer
         </h1>
         <p className="font-gooReg tracking-wide text-[14px] md:text-[16px] w-[90%] mx-auto mt-[15px]">
-          To Be Announce
+          We proudly present our super team for HackFest Indonesia 2023
         </p>
+        <img src="/libraries/images/svg/gdsc-indo.svg" className="mt-[40px] mx-auto" alt="" srcset=""/>
       </div>
     </section>
   )

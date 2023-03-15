@@ -3,24 +3,59 @@ import Profile from "./Profile";
 export default function Mentor() {
   const mentorData = [
     {
-      name: "Muhammad Razan Fawwaz",
-      position: "Google HackFest 2023 Lead",
-      image: "",
+      name: "Ananda Dwi Rahmawati",
+      position: "Senior Cloud Engineer PT Boer Technology",
+      image: "/libraries/images/mentors/Ananda-Dwi-Rahmawati.jpg",
     },
     {
-      name: "Robert Theo",
-      position: "Google HackFest 2023 Tech Lead",
-      image: "",
+      name: "Guntur Sarwohadi",
+      position: "Chief of Game, Wyndblast",
+      image: "/libraries/images/mentors/Guntur-Sarwohadi.jpeg",
     },
     {
-      name: "Nico Abel Laia",
-      position: "Google HackFest 2023 Tech Member",
-      image: "",
+      name: "Haidar Zamzam",
+      position: "Mobile Developer at Riliv, Co Organizer GDG Surabaya",
+      image: "/libraries/images/mentors/Haidar-Zamzam.jpeg",
     },
     {
-      name: "Haris Daffa",
-      position: "Google HackFest 2023 Tech Member",
-      image: "",
+      name: "Ibnu S. Wardy",
+      position: "Founder & Chairman at GITS Indonesia",
+      image: "/libraries/images/mentors/Ibnu-Sina-Wardy.jpeg",
+    },
+    {
+      name: "M Ray Rizaldy",
+      position: "CEO Gits indonesia",
+      image: "/libraries/images/mentors/Ray-Rizaldy.jpeg",
+    },
+    {
+      name: "Patrick Nugroho",
+      position: "Managing Director at Selaksa",
+      image: "/libraries/images/mentors/Patrick-Nugroho.jpeg",
+    },
+    {
+      name: "Prabu Rangki",
+      position: "Software Engineer at Kintell",
+      image: "/libraries/images/mentors/Prabu-Rangki.jpeg",
+    },
+    {
+      name: "Raihan Suraperwata",
+      position: "Software Engineer at Tokopedia",
+      image: "/libraries/images/mentors/Raihan-Suraperwata.jpeg",
+    },
+    {
+      name: "Rendra Toro",
+      position: "Technology Consultant at Indosat Business",
+      image: "/libraries/images/mentors/Rendra-Toro.jpeg",
+    },
+    {
+      name: "Riza Fahmi",
+      position: "GDE Web, Co-Founder at Hacktiv8 Indonesia",
+      image: "/libraries/images/mentors/Riza-Fahmi.jpg",
+    },
+    {
+      name: "Veronica Anggraini",
+      position: "Software Engineer (Android) at Line Bank",
+      image: "/libraries/images/mentors/Veronica-Anggraini.jpeg",
     },
   ];
 
