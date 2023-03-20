@@ -8,7 +8,7 @@ export default function SponsorEvent() {
           Sponsors
         </h1>
         <p className="font-gooReg tracking-wide text-[14px] md:text-[16px] md:w-[90%] mx-auto mt-[15px]">
-        We proudly present our official sponsors for Hackfest Indonesia 2023 
+        We proudly present our official sponsors for HackFest Indonesia 2023 
         </p>
         <div className="grid grid-cols-2 gap-x-5 sm:gap-x-8 md:gap-x-14 mt-[30px]">
         <div className="col-span-1 flex justify-center items-center">
