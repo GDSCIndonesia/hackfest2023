@@ -19,7 +19,7 @@ import AlertHead from './components/AlertHead'
 function App() {
   return (
     <>
-      <AlertHead/>
+      {/* <AlertHead/> */}
       <HackTitle/>
       <Navbar/>
       <HackfestDetail/>

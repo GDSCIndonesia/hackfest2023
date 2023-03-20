@@ -38,7 +38,7 @@ export default function CountEvent() {
         <div className="col-span-12 md:col-span-7 bg-gooYellow-300" id="events">
           <div className="bg-events-lines bg-cover bg-repeat-y bg-top py-[60px] lg:py-[60px] px-[30px] lg:px-[60px] w-full h-full">
             <div className="text-center md:text-left">
-              <h1 className="font-gooBold text-black text-[50px] md:text-[65px] tracking-[-.10rem] md:tracking-[-.20rem]">Continue Developing</h1>
+              <h1 className="font-gooBold text-black text-[50px] md:text-[65px] tracking-[-.10rem] md:tracking-[-.20rem]">See you on HackFest 2024</h1>
               {/* <h2 className="font-gooReg text-black text-[14px] tracking-[-.001rem] sm:text-[16px]">Ready to solve your local problems? Submit your pitch deck now and let's make it happen!</h2> */}
             </div>
             <div className="my-[30px]">
