@@ -1,11 +1,11 @@
-import useWindowSize from 'react-use-window-size'
-import Confetti from 'react-confetti'
+import useWindowSize from "react-use-window-size"
+import Confetti from "react-confetti"
 
 export default function ConfettiExp() {
     const { width, height } = useWindowSize();
 
   return (
-    <div className='fixed left-0 top-0 w-full h-screen z-[9000] pointer-events-none'>
+    <div className='fixed left-0 top-0 w-full h-screen z-[9001] pointer-events-none'>
         <Confetti
         width={width}
         height={height}
