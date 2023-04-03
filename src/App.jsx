@@ -15,11 +15,14 @@ import JoinDiscord from './components/JoinDiscord'
 import OrganizerEvent from './components/OrganizerEvent'
 import Footer from './components/layout/Footer'
 import AlertHead from './components/AlertHead'
+import ConfettiExp from './components/ConfettiExp'
+
 
 function App() {
   return (
     <>
       {/* <AlertHead/> */}
+      <ConfettiExp/>
       <HackTitle/>
       <Navbar/>
       <HackfestDetail/>
