@@ -15,7 +15,6 @@ import JoinDiscord from './components/JoinDiscord'
 import OrganizerEvent from './components/OrganizerEvent'
 import Footer from './components/layout/Footer'
 import AlertHead from './components/AlertHead'
-import ConfettiExp from './components/ConfettiExp'
 import PopupLand from './components/PopupLand'
 
 
