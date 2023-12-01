@@ -44,16 +44,16 @@ export default function CountEvent() {
             <div className="my-[30px]">
               <Countdown date={new Date("2023-03-17T23:59:59")} renderer={renderer}/>
             </div>
-            <div className="flex space-x-[10px] sm:space-x-[20px] justify-center md:justify-start">
+            {/* <div className="flex space-x-[10px] sm:space-x-[20px] justify-center md:justify-start">
               <a href="https://links.gdsc-hackfest.com/guidebook" className="border-2 border-black px-[30px] py-[15px] font-gooReg text-[13px] sm:text-[15px] md:text-[16px] lg:text-[18px] hover:bg-gooYellow-900 transition-all
               ">
                 Download Guidebook
               </a>
-              {/* <a href="https://links.gdsc-hackfest.com/PitchDeck-submission" className="border-2 border-black px-[30px] py-[15px] font-gooReg text-[13px] sm:text-[15px] md:text-[16px] lg:text-[18px] text-white bg-black hover:bg-gooGreen-900 transition-all
+              <a href="https://links.gdsc-hackfest.com/PitchDeck-submission" className="border-2 border-black px-[30px] py-[15px] font-gooReg text-[13px] sm:text-[15px] md:text-[16px] lg:text-[18px] text-white bg-black hover:bg-gooGreen-900 transition-all
               ">
                 Submit Pitch Deck
-              </a> */}
-            </div>
+              </a>
+            </div> */}
           </div>
         </div>
       </div>
