@@ -23,23 +23,23 @@ function App() {
   return (
     <>
       {/* <AlertHead/> */}
-      <PopupLand/>
-      <ConfettiExp/>
+      {/* <PopupLand/>
+      <ConfettiExp/> */}
       <HackTitle/>
       <Navbar/>
       <HackfestDetail/>
       <TopWords/>
       <CountEvent/>
-      <Timeline/>
+      {/* <Timeline/>
       <Prize/>
       <SessionTalk/>
       <Speaker/>
       <Mentor/>
       <SponsorEvent/>
       <MediaPartner/>
-      <OrganizerEvent/>
+      <OrganizerEvent/> */}
       <JoinDiscord/>
-      <Faq/>
+      {/* <Faq/> */}
       <Footer />
     </>
   );
