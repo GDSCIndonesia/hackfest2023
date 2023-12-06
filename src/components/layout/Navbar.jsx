@@ -129,6 +129,14 @@ export default function Navbar() {
                   Join Discord
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://s.id/register-hackfest2024"
+                  className="inline-block text-black font-gooReg py-[15px] px-[40px] hover:bg-gooYellow-800 hover:text-black transition-all border-y lg:border-y-0 lg:border-r-2 border-black w-full lg:w-fit text-center"
+                >
+                  Register
+                </a>
+              </li>
               {/* <li>
                 <a
                   href="https://links.gdsc-hackfest.com/PitchDeck-submission"
