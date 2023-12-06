@@ -14,6 +14,11 @@ export default function TopWords() {
           Prepare your team now and have the chance of winning one of the most
           prestigious hackathon events in Indonesia!
         </p>
+        <div className="mt-6">
+        <a href="https://s.id/register-hackfest2024" className="inline-block text-black font-gooReg py-[15px] px-[40px] hover:bg-gooYellow-800 hover:text-black transition-all border-y border-x lg:border-y-2 lg:border-x-2 border-black w-full lg:w-fit text-center">
+          Register HackFest 2024
+        </a>
+        </div>
       </div>
     </section>
   );
